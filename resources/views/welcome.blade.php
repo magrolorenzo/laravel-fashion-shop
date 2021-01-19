@@ -10,9 +10,11 @@
     <body>
         <section>
             <div class="container">
-                <p>
-                    {{$all_dresses}}
-                </p>
+                @foreach ($dresses as $dress)
+                    <p>
+                        {{$dress}}
+                    </p>
+                @endforeach
             </div>
         </section>
 

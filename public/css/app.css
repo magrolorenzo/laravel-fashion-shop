@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.capitalized {
+  text-transform: capitalize;
+}
+
+section {
+  background-color: lightblue;
+  height: 100vh;
+}
+
+section .container {
+  padding: 100px 0;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .container .dress-wrapper {
+  width: 300px;
+  height: 300px;
+  font-size: 30px;
+  background-color: coral;
+  border: 1px solid grey;
+  padding: 20px;
+}
+
